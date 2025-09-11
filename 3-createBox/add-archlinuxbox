@@ -1,0 +1,2 @@
+// vagrant box add archlinuxbox.box --name archlinuxbox
+vagrant box add BoxCatalogMetadata.json --box-version 2025.09.01

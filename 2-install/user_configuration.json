@@ -1,0 +1,131 @@
+{
+    "app_config": {},
+    "archinstall-language": "English",
+    "auth_config": {},
+    "bootloader": "Grub",
+    "custom_commands": [],
+    "disk_config": {
+        "config_type": "default_layout",
+        "device_modifications": [
+            {
+                "device": "/dev/sda",
+                "partitions": [
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": [
+                            "boot"
+                        ],
+                        "fs_type": "fat32",
+                        "mount_options": [],
+                        "mountpoint": "/boot",
+                        "obj_id": "162d30f8-8d38-44a3-bedb-a64f90cfa019",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "GiB",
+                            "value": 1
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "MiB",
+                            "value": 1
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": [],
+                        "fs_type": "xfs",
+                        "mount_options": [],
+                        "mountpoint": "/",
+                        "obj_id": "f76ab619-1de1-4dc1-945f-c87da3dd29fe",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 41874882560
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 1074790400
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    }
+                ],
+                "wipe": true
+            }
+        ]
+    },
+    "hostname": "archlinuxbox",
+    "kernels": [
+        "linux",
+        "linux-hardened"
+    ],
+    "locale_config": {
+        "kb_layout": "us",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US.UTF-8"
+    },
+    "mirror_config": {
+        "custom_repositories": [],
+        "custom_servers": [],
+        "mirror_regions": {
+            "Czechia": [
+                "http://mirror.vpsfree.cz/archlinux/$repo/os/$arch",
+                "http://mirror.dkm.cz/archlinux/$repo/os/$arch",
+                "https://mirror.dkm.cz/archlinux/$repo/os/$arch",
+                "http://gluttony.sin.cvut.cz/arch/$repo/os/$arch",
+                "https://gluttony.sin.cvut.cz/arch/$repo/os/$arch",
+                "http://archlinux.nic.cz/archlinux/$repo/os/$arch",
+                "https://archlinux.nic.cz/archlinux/$repo/os/$arch",
+                "http://ftp.sh.cvut.cz/arch/$repo/os/$arch",
+                "https://ftp.sh.cvut.cz/arch/$repo/os/$arch",
+                "http://ftp.fi.muni.cz/pub/linux/arch/$repo/os/$arch",
+                "http://ftp.linux.cz/pub/linux/arch/$repo/os/$arch",
+                "https://europe.mirror.pkgbuild.com/$repo/os/$arch",
+                "http://mirror.it4i.cz/arch/$repo/os/$arch",
+                "https://mirror.it4i.cz/arch/$repo/os/$arch"
+            ]
+        },
+        "optional_repositories": []
+    },
+    "network_config": {
+        "type": "iso"
+    },
+    "ntp": true,
+    "packages": [
+        "vi",
+        "openssh",
+        "wget"
+    ],
+    "parallel_downloads": 0,
+    "profile_config": {
+        "gfx_driver": null,
+        "greeter": null,
+        "profile": {
+            "custom_settings": {},
+            "details": [],
+            "main": "Minimal"
+        }
+    },
+    "script": null,
+    "services": [],
+    "swap": false,
+    "timezone": "Europe/Prague",
+    "version": "3.0.9"
+}
