@@ -21,6 +21,7 @@ vboxmanage modifyvm $VM --audio-out=on
 vboxmanage modifyvm $VM --clipboard-mode=bidirectional
 vboxmanage modifyvm $VM --clipboard-file-transfers=enabled
 vboxmanage modifyvm $VM --drag-and-drop=bidirectional
+vboxmanage modifyvm $VM --usb-xhci=on
 
 vboxmanage modifyvm $VM --nic1=nat
 vboxmanage modifyvm $VM --nat-network1=nat1
