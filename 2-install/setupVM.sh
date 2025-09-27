@@ -1,5 +1,6 @@
 #!/bin/sh
 
+useradd -u 1100 -p "y$j9T$5JouZfYFYaUydbpTm4tLo/$ZQLA/5TMkV4BKaNSHDXM5sPNvdzRi4WnxG9s4sVnYm3" -U -m vagrant
 echo "vagrant        ALL=(ALL)       NOPASSWD: ALL" >> /etc/sudoers
 
 mkdir -pm 700 /home/vagrant/.ssh
