@@ -9,7 +9,7 @@
           "name": "virtualbox",
           "url": "./archlinuxbox-2025.09.01.box",
           "checksum_type": "sha1",
-          "checksum": "3267360ca2b8173b0c9248db2559eca241076b9b",
+          "checksum": "8ca131401c017bee4bbde17c0fbc86006c06958e",
           "architecture": "amd64",
           "default_architecture": true
         }

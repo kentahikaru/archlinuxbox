@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VM="archlinuxbox-2025.09.01"
+VM="archlinuxbox"
 IsoPath="/mnt/data/downloads/archlinux-2025.09.01-x86_64.iso"
 
 vboxmanage createvm --name $VM --ostype "ArchLinux_64" --register
