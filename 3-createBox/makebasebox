@@ -1,7 +1,0 @@
-ArchBoxName="archlinuxbox-2025.09.01.box"
-vagrant package --base archlinuxbox --output $ArchBoxName
-echo ""
-echo ""
-echo "=== Put sha1 to BoxCatalogMetadata.json ==="
-sha1sum $ArchBoxName
-echo ""
