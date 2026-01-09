@@ -8,7 +8,7 @@ echo ""
 echo ""
 echo "=== Put sha1 to BoxCatalogMetadata.json ==="
 shaSum=$(sha1sum $ArchBoxName | awk '{print $1}')
-echo ""
+echo "$shaSum"
 
 CatalogMetadataJson="
 {
