@@ -1,6 +1,8 @@
 #!/bin/sh
 
-source ../version.sh
+source ../variables.sh
+
+vboxmanage storageattach $VM --storagectl "SATA Controller" --port 1 --device 0 --type dvddrive --medium emptydrive
 
 ArchBoxName="archlinuxbox-$Version.box"
 vagrant package --base archlinuxbox --output $ArchBoxName

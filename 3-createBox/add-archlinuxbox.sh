@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source ../version.sh
+source ../variables.sh
 
 vagrant box remove archlinuxbox
 

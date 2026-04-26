@@ -4,13 +4,13 @@
   "description": "This box contains Archlinux.",
   "versions": [
     {
-      "version": "2026.01.01",
+      "version": "2026.04.01",
       "providers": [
         {
           "name": "virtualbox",
-          "url": "./archlinuxbox-2026.01.01.box",
+          "url": "./archlinuxbox-2026.04.01.box",
           "checksum_type": "sha1",
-          "checksum": "5fd56ee9ccd2b81793b8bdcd22d2247211fee97a",
+          "checksum": "9e90e46e06c6f408be07d8634ad20825e0de218b",
           "architecture": "amd64",
           "default_architecture": true
         }
