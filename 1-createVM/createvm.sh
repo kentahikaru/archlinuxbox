@@ -29,7 +29,7 @@ fi
 
 
 
-vboxmanage list vms | grep -i archlinuxbox | grep -oP '(?<=")[^"]+(?=")' | while read -r VmName; do
+vboxmanage list vms | grep -i $VM | grep -oP '(?<=")[^"]+(?=")' | while read -r VmName; do
     echo "Deleting: $VmName"
     vboxmanage unregistervm --delete "$VmName"
 done
